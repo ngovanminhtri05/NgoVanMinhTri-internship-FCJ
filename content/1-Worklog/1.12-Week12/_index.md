@@ -5,34 +5,31 @@ weight: 12
 chapter: false
 pre: " <b> 1.12. </b> "
 ---
-{{% notice warning %}} 
-⚠️ **Note:** The following information is for reference purposes only. Please **do not copy verbatim** for your own report, including this warning.
-{{% /notice %}}
-
 
 ### Week 12 Objectives:
 
-* Complete AWS Cloud Practitioner certification course on Coursera
-* Finalize Smart Office IoT project implementation and documentation
-* Prepare final project presentation
+* Prepare for university final exam in Academic Writing
+* Complete Smart Office IoT project implementation and documentation
+* Review and practice academic writing skills for exam
 
 ### Tasks to be carried out this week:
 | Day | Task                                                                                                                                                                                                   | Start Date | Completion Date | Reference Material                        |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------- | --------------- | ----------------------------------------- |
-| 2   | - Complete remaining Coursera AWS Cloud Practitioner modules <br> - Review AWS core services: EC2, S3, VPC, IAM <br> - Take practice quizzes                                                           | 11/25/2025 | 11/25/2025      | Coursera AWS Cloud Practitioner Course   |
-| 3   | - Finish AWS security and pricing modules <br> - Complete Coursera final exam <br> - Review certification preparation materials                                                                         | 11/26/2025 | 11/26/2025      | Coursera AWS Cloud Practitioner Course   |
+| 2   | - Review academic writing fundamentals <br> - Practice essay structure and organization <br> - Study thesis statement development                                                                      | 11/25/2025 | 11/25/2025      | Academic Writing course materials        |
+| 3   | - Practice writing argumentative essays <br> - Review citation and referencing styles <br> - Study paragraph development techniques                                                                   | 11/26/2025 | 11/26/2025      | Academic Writing textbooks               |
 | 4   | - Finalize Smart Office IoT project code <br> - Complete Lambda functions for Rules Engine <br> - Test DynamoDB data persistence <br> - Verify all IoT Core integrations                               | 11/27/2025 | 11/28/2025      | Project documentation                    |
 | 5   | - Build serverless API with API Gateway <br> - Create CloudWatch dashboards for visualization <br> - Test end-to-end project workflow <br> - Document architecture and implementation                  | 11/28/2025 | 11/29/2025      | AWS Documentation                        |
-| 6   | - Prepare final project presentation slides <br> - Create demo video <br> - Write project summary and learnings <br> - Review internship deliverables                                                  | 11/29/2025 | 11/29/2025      | Presentation guidelines                  |
+| 6   | - Practice timed essay writing <br> - Review common essay topics and prompts <br> - Prepare for final exam format <br> - Complete final review and mock exam                                           | 11/29/2025 | 11/29/2025      | University exam guidelines               |
 
 
 ### Week 12 Achievements:
 
-* Successfully completed AWS Cloud Practitioner certification course on Coursera
-  * Mastered core AWS services across compute, storage, networking, and database categories
-  * Understood AWS pricing models, billing, and cost optimization strategies
-  * Learned AWS security best practices and compliance frameworks
-  * Passed the Coursera final assessment with strong performance
+* Prepared thoroughly for Academic Writing final exam
+  * Reviewed essay structure: introduction, body paragraphs, and conclusion
+  * Practiced thesis statement formulation and argument development
+  * Studied various essay types: argumentative, expository, and analytical
+  * Mastered citation formats (APA, MLA) and academic tone
+  * Completed multiple practice essays under timed conditions
 
 * Finalized Smart Office IoT Core project implementation:
   * Completed Lambda functions for processing IoT sensor data

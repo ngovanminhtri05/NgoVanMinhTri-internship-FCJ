@@ -5,33 +5,31 @@ weight: 12
 chapter: false
 pre: " <b> 1.12 </b> "
 ---
-{{% notice warning %}}
-⚠️ **Lưu ý:** Các thông tin dưới đây chỉ nhằm mục đích tham khảo, vui lòng **không sao chép nguyên văn** cho bài báo cáo của bạn kể cả warning này.
-{{% /notice %}}
 
 ### Mục tiêu tuần 12:
 
-* Hoàn thành khóa học chứng chỉ AWS Cloud Practitioner trên Coursera
+* Chuẩn bị cho kỳ thi cuối kỳ môn Academic Writing của trường đại học
 * Hoàn thiện việc triển khai và tài liệu dự án Smart Office IoT
-* Chuẩn bị bài thuyết trình dự án cuối cùng
+* Ôn tập và thực hành kỹ năng viết học thuật cho kỳ thi
 
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 2   | - Hoàn thành các module còn lại của khóa học AWS Cloud Practitioner trên Coursera <br> - Ôn tập các dịch vụ AWS cốt lõi: EC2, S3, VPC, IAM <br> - Làm bài kiểm tra thử                             | 25/11/2025   | 25/11/2025      | Khóa học Coursera AWS Cloud Practitioner |
-| 3   | - Hoàn thành module bảo mật và định giá AWS <br> - Hoàn thành bài thi cuối kỳ Coursera <br> - Ôn tập tài liệu chuẩn bị chứng chỉ                                                                    | 26/11/2025   | 26/11/2025      | Khóa học Coursera AWS Cloud Practitioner |
+| 2   | - Ôn tập kiến thức cơ bản về viết học thuật <br> - Thực hành cấu trúc và tổ chức bài luận <br> - Học cách phát triển thesis statement                                                             | 25/11/2025   | 25/11/2025      | Tài liệu môn Academic Writing            |
+| 3   | - Thực hành viết bài luận tranh luận <br> - Ôn tập các phong cách trích dẫn và tham khảo <br> - Học kỹ thuật phát triển đoạn văn                                                                  | 26/11/2025   | 26/11/2025      | Sách giáo khoa Academic Writing          |
 | 4   | - Hoàn thiện code dự án Smart Office IoT <br> - Hoàn thành các Lambda functions cho Rules Engine <br> - Kiểm tra lưu trữ dữ liệu DynamoDB <br> - Xác minh tất cả tích hợp IoT Core             | 27/11/2025   | 28/11/2025      | Tài liệu dự án                        |
 | 5   | - Xây dựng API serverless với API Gateway <br> - Tạo dashboard CloudWatch để trực quan hóa <br> - Kiểm tra quy trình dự án end-to-end <br> - Lập tài liệu kiến trúc và triển khai                | 28/11/2025   | 29/11/2025      | Tài liệu AWS                        |
-| 6   | - Chuẩn bị slide thuyết trình dự án cuối cùng <br> - Tạo video demo <br> - Viết tóm tắt dự án và bài học kinh nghiệm <br> - Rà soát các bài nộp thực tập                              | 29/11/2025   | 29/11/2025      | Hướng dẫn thuyết trình                  |
+| 6   | - Thực hành viết bài luận theo thời gian giới hạn <br> - Ôn tập các chủ đề và đề bài luận phổ biến <br> - Chuẩn bị cho định dạng thi cuối kỳ <br> - Hoàn thành ôn tập cuối và thi thử               | 29/11/2025   | 29/11/2025      | Hướng dẫn thi của trường đại học         |
 
 
 ### Kết quả đạt được tuần 12:
 
-* Hoàn thành thành công khóa học chứng chỉ AWS Cloud Practitioner trên Coursera
-  * Nắm vững các dịch vụ AWS cốt lõi bao gồm compute, storage, networking và database
-  * Hiểu rõ mô hình định giá, thanh toán và chiến lược tối ưu chi phí AWS
-  * Học các phương pháp tốt nhất về bảo mật AWS và khung tuân thủ
-  * Vượt qua bài đánh giá cuối kỳ Coursera với kết quả cao
+* Chuẩn bị kỹ lưỡng cho kỳ thi cuối kỳ Academic Writing
+  * Ôn tập cấu trúc bài luận: phần mở bài, thân bài và kết luận
+  * Thực hành xây dựng thesis statement và phát triển lập luận
+  * Học các dạng bài luận: tranh luận, giải thích và phân tích
+  * Nắm vững các định dạng trích dẫn (APA, MLA) và giọng điệu học thuật
+  * Hoàn thành nhiều bài luận thực hành theo thời gian giới hạn
 
 * Hoàn thiện triển khai dự án Smart Office IoT Core:
   * Hoàn thành các Lambda functions xử lý dữ liệu cảm biến IoT
