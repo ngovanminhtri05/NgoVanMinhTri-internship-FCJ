@@ -5,25 +5,24 @@ chapter: false
 pre: " <b> 5. </b> "
 ---
 
-# Platform IoT Văn phòng Thông minh Serverless
+# Smart Office Management System Workshop
 
-#### Tổng quan
+#### Tổng quan (Overview)
 
-Workshop này trình bày cách xây dựng một **nền tảng dữ liệu không máy chủ toàn diện** trên AWS để giám sát môi trường thời gian thực. Hệ thống triển khai một **kiến trúc hướng sự kiện và không máy chủ** hiện đại sử dụng các dịch vụ AWS gốc đám mây.
+**Smart Office Management System** cung cấp giải pháp giám sát và quản lý môi trường thời gian thực cho văn phòng, được xây dựng hoàn toàn trên nền tảng **AWS Serverless** giúp tối ưu hóa chi phí và khả năng mở rộng.
 
-**Các nguyên tắc kiến trúc chính:**
-+ **Kiến trúc không máy chủ** - Sử dụng **AWS Lambda**, **Amazon API Gateway**, và **Amazon DynamoDB** để chạy mã mà không cần cấp phát máy chủ. AWS tự động xử lý việc mở rộng quy mô và quản lý cơ sở hạ tầng.
-+ **Kiến trúc hướng sự kiện** - Thay vì bẻ phi phiếu liên tục, các sự kiện cụ thể (đọc cảm biến IoT, lệnh gọi API của người dùng) kích hoạt các quy trình. **AWS IoT Core** và **Amazon EventBridge** điều phối các sự kiện này để đạt được tính linh hoạt và khả năng mở rộng.
+Trong bài lab này, bạn sẽ học cách triển khai, cấu hình và kiểm thử một hệ thống IoT full-stack, cho phép các thiết bị cảm biến gửi dữ liệu lên đám mây và người quản trị có thể điều khiển thiết bị thông qua Web Dashboard.
 
-**Các thành phần hệ thống:**
-Nền tảng quản lý một **thiết lập văn phòng thông minh 8 phòng** tích hợp **AWS IoT Core** để nhập liệu cảm biến, các hàm **Lambda** để xử lý, **DynamoDB** để lưu trữ, **S3** và **CloudFront** để lưu trữ trang web, và **Amazon Cognito** để xác thực. Dữ liệu cảm biến từ các thiết bị biên chạy vào AWS, được lưu trữ và xử lý, cập nhật bảng điều khiển quản lý, và định tuyến các sự kiện quan trọng qua EventBridge để cảnh báo.
+Bạn sẽ làm việc với hai mô hình kiến trúc chính để vận hành hệ thống Smart Office:
++ **Serverless Architecture** - Sử dụng **AWS Lambda**, **API Gateway**, và **DynamoDB** để xử lý logic và lưu trữ dữ liệu. Mô hình này cho phép mã chạy để phản hồi các yêu cầu mà không cần quản lý máy chủ.
++ **Event-Driven Architecture** - Sử dụng **AWS IoT Core**, **EventBridge**, và **SNS**. Hệ thống hoạt động dựa trên sự kiện, nơi dữ liệu từ cảm biến hoặc hành động của người dùng sẽ kích hoạt các quy trình tự động hóa và gửi thông báo cảnh báo.
 
-#### Nội dung
+#### Nội dung (Content)
 
-1. [Tổng quan về workshop](5.1-Workshop-overview/)
-2. [Điều kiện tiên quyết](5.2-Prerequiste/)
-3. [Chạy ngăn xếp CloudFormation](5.3-Run-cloudformation-stack/)
-4. [Thiết lập trang web](5.4-Set-up-website/)
+1. [Giới thiệu](5.1-Workshop-overview/)
+2. [Các bước chuẩn bị](5.2-Prerequiste/)
+3. [Thiết lập CloudFormation](5.3-Run-cloudformation-stack/)
+4. [Thiết lập website](5.4-Set-up-website/)
 5. [Thiết lập EventBridge và Lambda](5.5-Event-Bridge/)
 6. [Thiết lập SNS](5.6-SNS/)
-7. [Kiểm tra trang web và kết nối IoT](5.7-Test-website-iot-connection/)
+7. [Kiểm thử kết nối giữa website và thiết bị IoT](5.7-Test-website-iot-connection/)
